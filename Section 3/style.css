@@ -9,9 +9,23 @@ body {
   }
 }
 */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   body {
-    background: url('./large-background.jpg') no-repeat center center fixed;
+    background: url('./small-background99.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background: url('./small-background30.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background: url('./clipped30.jpg') no-repeat center center fixed;
     background-size: cover;
   }
 }
